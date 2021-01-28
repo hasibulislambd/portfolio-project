@@ -1,0 +1,128 @@
+  /* For desktop: */
+.col-1 {width: 8.33%;}
+.col-2 {width: 16.66%;}
+.col-3 {width: 25%;}
+.col-4 {width: 33.33%;}
+.col-5 {width: 41.66%;}
+.col-6 {width: 50%;}
+.col-7 {width: 58.33%;}
+.col-8 {width: 66.66%;}
+.col-9 {width: 75%;}
+.col-10 {width: 83.33%;}
+.col-11 {width: 91.66%;}
+.col-12 {width: 100%;}
+
+/* navbar design */
+
+.nav-logo{
+  text-align: left;
+}
+
+.nav-header{
+  text-align: right;
+}
+
+.nav-menu{
+  display: flex;
+  flex-direction: row;
+  justify-content: end;
+}
+
+.nav-menu a{
+  padding: 10px 15px;
+   margin-top: 30px;
+}
+
+/* profile design */
+
+.profile .top{
+  position: absolute;
+  right: 100px;
+  top: 30px;
+  transition: 2s transform, width 2s, height 2s ease;
+}
+
+.profile .top:hover{
+  transform: rotate(360deg);
+  width: 140px;
+  height: 140px;
+}
+
+.profile .bottom{
+  position: absolute;
+  right: 100px;
+  bottom: 20px;
+  transition: 2s transform, width 2s, height 2s ease;
+}
+
+.profile .bottom:hover{
+  transform: rotate(360deg);
+  width: 140px;
+  height: 140px;
+}
+
+/* about-me design start */
+
+.about-me-image{
+  margin-top: 150px;
+}
+
+.about-me-image img{
+  width: 250px;
+  height: 270px;
+}
+
+.described-me p{
+  text-align: left;
+}
+
+
+/* about-me design start */
+
+
+.professional-expe .card{
+  text-align: left;
+}
+
+
+
+
+/* achivments */
+
+.achivment{
+  padding-right: 50px;
+
+}
+
+.contact-link{
+  text-align: center;
+  position: relative;
+}
+
+.media-button .btn{
+  margin: 15px;
+}
+
+
+.media-button{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+  margin-top: 250px;
+
+}
+
+/* footer */
+
+
+
+.footer-menu a{
+  display: inline-block;
+  padding: 10px;
+}
+
+.footer-desc{
+  font-size: 1rem;
+
+}
